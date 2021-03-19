@@ -16,3 +16,11 @@ If you clone project without --recursive flag, please go to the project director
 ## Video:
 
 To watch the video of the demo click [here](https://www.youtube.com/watch?v=Udb_wEzT6zk)
+
+## Mau
+
+Added `fix` script to fix some API issues on git submodules.
+Upload using
+```
+platformio run -e esp32dev -t upload
+```
