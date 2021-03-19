@@ -1,0 +1,1 @@
+sed -i 's#rtc_gpio_desc#rtc_io_desc#g' components/esp32-camera/driver/twi.c
