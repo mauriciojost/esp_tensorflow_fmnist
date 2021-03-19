@@ -2,4 +2,5 @@ idf_component_register(SRCS app_main.c app_wifi.c app_httpd.c app_camera.c app_t
                     INCLUDE_DIRS . image_util/include lib/include
                     EMBED_FILES "www/index.html.gz")
 
+#target_add_binary_data(firmware.elf "www/index.html.gz" BINARY)
 target_link_libraries(${COMPONENT_TARGET} "-L ${CMAKE_CURRENT_SOURCE_DIR}/lib")
